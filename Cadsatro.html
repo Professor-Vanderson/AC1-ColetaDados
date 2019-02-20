@@ -9,11 +9,19 @@
 <body>
     <h2>Aula de Formmulários</h2>
     <form action="" method="POST">
-        <label>Nome do Usuário:</label><br/>
-        <input type="text"maxlength="10" name="user"/><br/>
-        <label>Senha:</label><br/>
-        <input type="password" maxlength="3" name="pass"/>
-        <br/>
+        <select name="UF">
+            <option>São Paulo</option>
+            <option>Rio de Janeiro</option>
+        </select><br/>
+        <input type="radio" 
+               name="disciplinas" 
+               value="DevOps">DevOps<br/>
+        <input type="radio" 
+               name="disciplinas" 
+               value="LPII">LPII<br/> 
+        <input type="email" 
+               name="email" 
+               id="teste"/>      
         <input type="submit"/>
     </form>
 </body>
